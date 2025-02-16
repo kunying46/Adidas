@@ -72,9 +72,9 @@ class _MainScreenState extends State<MainScreen> {
           BottomNavigationBarItem(
             icon: Image.asset(
               'assets/icons/adiclub.png',
-              width: 24,
-              height: 24,
-              color: _currentIndex == 4 ? Colors.black : Colors.grey,
+              width: 48,
+              height: 48,
+              
             ),
             label: '',
           ),
