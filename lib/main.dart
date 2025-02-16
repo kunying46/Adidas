@@ -55,19 +55,19 @@ class _MainScreenState extends State<MainScreen> {
         items: [
           BottomNavigationBarItem(
             icon: Icon(Icons.home_outlined),
-            label: 'Home',
+            label: '',
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.search),
-            label: 'Search',
+            label: '',
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.favorite_border),
-            label: 'Favourite',
+            label: '',
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.shopping_bag_outlined),
-            label: 'Shopping',
+            label: '',
           ),
           BottomNavigationBarItem(
             icon: Image.asset(
@@ -76,7 +76,7 @@ class _MainScreenState extends State<MainScreen> {
               height: 24,
               color: _currentIndex == 4 ? Colors.black : Colors.grey,
             ),
-            label: 'adiClub',
+            label: '',
           ),
         ],
       ),
