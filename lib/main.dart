@@ -54,15 +54,16 @@ class _MainScreenState extends State<MainScreen> {
         unselectedItemColor: Colors.grey,
         items: [
           BottomNavigationBarItem(
-            icon: Icon(Icons.home_outlined),
-            label: '',
+            icon: 
+            Image.asset("assets/icons/logo.png",width: 30,height:30),
+            label: ''
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.search),
             label: '',
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.favorite_border),
+            icon: Icon(Icons.favorite_border_outlined),
             label: '',
           ),
           BottomNavigationBarItem(
@@ -72,12 +73,9 @@ class _MainScreenState extends State<MainScreen> {
           BottomNavigationBarItem(
             icon: Image.asset(
               'assets/icons/adiclub.png',
-              width: 48,
-              height: 48,
-              
-            ),
-            label: '',
-          ),
+              width: 45,
+              height: 45),
+            label: ''),
         ],
       ),
     );
